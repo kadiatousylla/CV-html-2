@@ -1,0 +1,132 @@
+body{
+    background-image: linear-gradient(#636162,#b1afaf);
+    height: 122vh;
+    font-weight: 150;
+    letter-spacing: 2px;
+}
+*{
+    margin: 0px; padding: 0px; font-family: 'system-ui'; sans-serif;
+}
+.main{
+    background-color: white;
+    height: auto;
+    width: 750px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 150%;
+
+}
+
+.left{
+    background-color: #43978d;
+    width: 250px;
+    float: left;
+}
+.right{
+    width: 450px;
+    float: left;
+}
+.kat-image{
+    height: 220px;
+    width: 180px;
+    background-color:rgb(252, 250, 250) ;
+    border-radius: 0%;
+    margin-bottom: 3Opx;
+    margin-left: 30px;
+   
+    
+}
+.kat-image img{
+    width: 100%;
+    border-radius: 50%;
+
+}
+ .box-1{
+    position: relative;
+ }
+ .heading{
+    background-color: #07433c;
+    padding: 9px;
+    color: #43978d;
+    text-align: left;
+    padding-left: 20px;
+    margin-right: -1px;
+ }
+ .heading::after{
+    content:'';
+    position: absolute;
+    width: 21px;
+    height: 18px;
+    background-color: #5a5959;
+    left: 191px;
+    top: 26px;
+    transform:rotate(56deg);
+    z-index: -1;
+ }
+ .p1{
+    padding: 5px 10px;
+    font-size: 18px;
+ }
+ .p2{
+    padding: 10px 10px;
+    font-size: 13px;
+ }
+ .skill-container{
+    width: 90%;
+    background-color: #07433c;
+    margin: 0px 10px;
+ }
+ .skill{
+    text-align: right;
+    padding-top: 4px;
+    padding-bottom: 2px;
+    color: white;
+
+ }
+ .Anglais-Biling{
+    width: 100%;
+    background-color: white;
+ }
+ .Allemand-Courant{
+    width: 80%;
+    background-color: white;
+ }
+ .Microsoft{
+    width: 100%;
+    background-color: white;
+ }
+ .Base{
+    width: 80%;
+    background-color: white;
+ }
+ .right-heading{
+    padding: 40px 30px;
+
+ }
+ .n-p{
+    width: 480px;
+    margin: auto;
+    text-align: left;
+    padding: 5px;
+    border-bottom: 1px solid #a09e9e;
+    border-top: 1px solid #a09e9e;
+    color: #43978d;
+    margin-top: 15px;
+    text-transform: uppercase;
+    
+ }
+ .about .box{
+   display: flex;
+   text-align: left;
+   padding: 7px;
+   flex-direction: row;
+   margin: 20px 0;
+ }
+ .about .box .year_company{
+   min-width: 150px;
+margin-bottom: 10px;
+ }
+ 
+ 
+ 
